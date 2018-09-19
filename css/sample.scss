@@ -520,6 +520,9 @@ h1{
           font-weight: bold;
           padding-bottom: 15px;
         }
+        .company_title {
+            margin-bottom: 0px;
+        }
       .news_li li {
         list-style: none;
         span {
@@ -529,14 +532,14 @@ h1{
           margin-bottom: 3px;
         }
       }
-      th {
-          padding-right: 20px;
-      }
-      td {
+      td,th {
           padding: 20px 0;
           color: #626262;
           font-size: 14px;
           font-size: 1.4rem;
+      }
+      th {
+          padding-right: 20px;
       }
       @media (min-width: 551px) {
         padding-right: 20px;
@@ -583,6 +586,10 @@ h1{
           padding: 10px 10px 10px 20px;
           background-image: url(../images/news/side_arrow.png);
           background-size: 4px 8px;
+          a {
+              color: #339fd1;
+              text-decoration: none;
+            }
       }
     }
     @media (max-width: 550px) {
